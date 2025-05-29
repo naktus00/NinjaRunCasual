@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77a3a5d1a45ff648bd87f28811f115c, type: 3}
+  m_Name: 0 Map Data 1.0
+  m_EditorClassIdentifier: 
+  mapAreas:
+  - name: City1
+    index: 0
+    mainProgress: 0
+    structers:
+    - index: 0
+      requirement: 100
+      progress: 0
+    - index: 1
+      requirement: 150
+      progress: 0
+    - index: 2
+      requirement: 200
+      progress: 0
+    - index: 3
+      requirement: 250
+      progress: 0
+    - index: 4
+      requirement: 300
+      progress: 0

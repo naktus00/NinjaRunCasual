@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01014ae72b5c084bbfd6e4576980a96, type: 3}
+  m_Name: Test Level 9
+  m_EditorClassIdentifier: 
+  conceptIndex: 0
+  totalCollactableAxeNumber: 3
+  rewardCoin: 7000
+  rewardKilledBossCoin: 750
+  rewardPlayerLevel: 45
+  levelParts:
+  - type: 0
+    sample: 1
+    enemiesLevels: 
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 4
+    sample: 0
+    enemiesLevels: 580200005802000058020000580200005802000058020000
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 0
+    sample: 0
+    enemiesLevels: 
+    hasAxe: 1
+    axeSlotIndex: 0
+  - type: 4
+    sample: 1
+    enemiesLevels: 580200005802000058020000580200005802000058020000
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 0
+    sample: 0
+    enemiesLevels: 
+    hasAxe: 1
+    axeSlotIndex: 1
+  - type: 4
+    sample: 2
+    enemiesLevels: 580200005802000058020000580200005802000058020000
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 0
+    sample: 0
+    enemiesLevels: 
+    hasAxe: 1
+    axeSlotIndex: 2
+  - type: 5
+    sample: 2
+    enemiesLevels: 
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 0
+    sample: 0
+    enemiesLevels: 
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 5
+    sample: 0
+    enemiesLevels: 
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 0
+    sample: 0
+    enemiesLevels: 
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 2
+    sample: 0
+    enemiesLevels: 030000000300000003000000030000000300000003000000030000000300000003000000
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 2
+    sample: 1
+    enemiesLevels: 090000000900000009000000090000000900000009000000090000000900000009000000
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 2
+    sample: 0
+    enemiesLevels: 0d0000000d0000000d0000000d0000000d0000000d0000000d0000000d0000000d000000
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 2
+    sample: 1
+    enemiesLevels: 110000001100000011000000110000001100000011000000110000001100000011000000
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 0
+    sample: 1
+    enemiesLevels: 
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 6
+    sample: 0
+    enemiesLevels: 
+    hasAxe: 0
+    axeSlotIndex: -99

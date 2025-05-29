@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92562651ea22b0740a11640432e51fa2, type: 3}
+  m_Name: 0 Market Data 1.0
+  m_EditorClassIdentifier: 
+  Weapons:
+  - id: 0
+    weaponName: Sword0
+    purchasedKey: Sword0_Purchased
+    colorKey: Sword0_Color
+    prefab: {fileID: 8667654404436421814, guid: f6e7265b2dfd0d34e9b0ed97ca22ff9e, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 603aa49c288eb5a499ecadfa9d63e3c6, type: 2}
+    - {fileID: 2100000, guid: fa5baed6be3065a459482872af5d2796, type: 2}
+    - {fileID: 2100000, guid: 76ec0f7c7d6c188409b0ddd47bd763d8, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword1
+    purchasedKey: Sword1_Purchased
+    colorKey: Sword1_Color
+    prefab: {fileID: 7745077908144015873, guid: 2522aaec6e20a7c4980def3260e82b3c, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: a5ddb0105fe4c1144968b52a304f3945, type: 2}
+    - {fileID: 2100000, guid: ee4b8981a11ace3479f8bef2e17e984c, type: 2}
+    - {fileID: 2100000, guid: 58e43cc7cb9771d4bbe67f63914f065e, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword2
+    purchasedKey: Sword2_Purchased
+    colorKey: Sword2_Color
+    prefab: {fileID: 939278569336238088, guid: eb7ff9fbceb375b44b77002d8f1ade7b, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 8fbe65689cacd8545904ad29279d3854, type: 2}
+    - {fileID: 2100000, guid: 4b6de7956318a624aa6b8c140a48b652, type: 2}
+    - {fileID: 2100000, guid: 6592fe0086859e74c84162de3826b9a5, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword3
+    purchasedKey: Sword3_Purchased
+    colorKey: Sword3_Color
+    prefab: {fileID: 4550166567051735096, guid: e6d311c0afdc87f43aa83d4f77d42aae, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 33a16add35bcca3468a326685219fd7d, type: 2}
+    - {fileID: 2100000, guid: 5bf9745e4cdf3544db118edd03429750, type: 2}
+    - {fileID: 2100000, guid: 4c4919b0d02151f428dcb09dd55dd98d, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword4
+    purchasedKey: Sword4_Purchased
+    colorKey: Sword4_Color
+    prefab: {fileID: 5833273730128530160, guid: 096fbce8d1414234c9a09154c9ce8e30, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 8f16b6367f3f3e145971c36ba0e2ae5c, type: 2}
+    - {fileID: 2100000, guid: 76faf25298597ac4f85cf3a33d6304da, type: 2}
+    - {fileID: 2100000, guid: b602efdc9b084f94a9414457436f9fdb, type: 2}
+    - {fileID: 2100000, guid: 741357fc19be8c74dab3f57ba2218450, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword5
+    purchasedKey: Sword5_Purchased
+    colorKey: Sword5_Color
+    prefab: {fileID: 4662365849013499926, guid: a0c4acaa58413734fb2ca11081333fb4, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 602e7e4cb7c849340a157ea612777f14, type: 2}
+    - {fileID: 2100000, guid: 1513e28ac8bfeb5479f03c202f6127d1, type: 2}
+    - {fileID: 2100000, guid: 9b468e68d2e1d36499dc32c5a138ab91, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword6
+    purchasedKey: Sword6_Purchased
+    colorKey: Sword6_Color
+    prefab: {fileID: 4830809285335790537, guid: 49708a9fae92d524db8f22fa44b474b0, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 0f6ed5b953c1cc644943552d45f09db0, type: 2}
+    - {fileID: 2100000, guid: 9d3dcfae311cd2f418047e848e3b45d8, type: 2}
+    - {fileID: 2100000, guid: b163fea100b008d49bdb6a393605f096, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword7
+    purchasedKey: Sword7_Purchased
+    colorKey: Sword7_Color
+    prefab: {fileID: 5395809725983939925, guid: b1c334fbaa8fa3443a93a7624bed9f66, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: f7bc641c2694d174880b6740ddc9d615, type: 2}
+    - {fileID: 2100000, guid: 287f1f4aea3b970499ca92b90a328c15, type: 2}
+    - {fileID: 2100000, guid: cd652b8de7a38904aaa89a9a1c0ce503, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword8
+    purchasedKey: Sword8_Purchased
+    colorKey: Sword8_Color
+    prefab: {fileID: 7462776124516800596, guid: bed20c3e01a02374cb4594f4b8e288eb, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: eb402d4b807ff8f41b678f805af64c62, type: 2}
+    - {fileID: 2100000, guid: 07f19b2562ee57443a704bf6e0a59c02, type: 2}
+    - {fileID: 2100000, guid: 72bcee339808e42418cd87c782e2038c, type: 2}
+    - {fileID: 2100000, guid: 8046cf35ef91b0e4688574b6e9084f32, type: 2}
+    - {fileID: 2100000, guid: 6ad9eaa16c0d35a4baa300d84fb7bd91, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword9
+    purchasedKey: Sword9_Purchased
+    colorKey: Sword9_Color
+    prefab: {fileID: 6975014903752950341, guid: db981c51026957f49a88814a11e9566a, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 7c079598e25f0254baff8031cb076111, type: 2}
+    - {fileID: 2100000, guid: dd236475abad42440b4df1413462e085, type: 2}
+    - {fileID: 2100000, guid: d1a93d013d9159c40a4c483801aad7a0, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword10
+    purchasedKey: Sword10_Purchased
+    colorKey: Sword10_Color
+    prefab: {fileID: 2494854990273920345, guid: e15e521bd5314224589208ba94eb37c0, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 145145c843892ac44b405716fb4d77c4, type: 2}
+    - {fileID: 2100000, guid: faa043329ba53f24d956f4890e9b0acd, type: 2}
+    - {fileID: 2100000, guid: 06a63dded40ae3c4da5e6fd287e763f6, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword11
+    purchasedKey: Sword11_Purchased
+    colorKey: Sword11_Color
+    prefab: {fileID: 3759681423909477881, guid: fe28e0e11822afe4588776f185636692, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: a0fc8f3d94fe3e04abf47472225cfafc, type: 2}
+    - {fileID: 2100000, guid: b03e868047761a54a988a324987935c9, type: 2}
+    - {fileID: 2100000, guid: 5e852c0c6cb6946449056929e2b7270a, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword12
+    purchasedKey: Sword12_Purchased
+    colorKey: Sword12_Color
+    prefab: {fileID: 7595349906884611990, guid: 255c6e4d98d922e4b9103a9980359f30, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 4e727a3391c170e4d8f10273d3239503, type: 2}
+    - {fileID: 2100000, guid: f6a771f5dc3dbd7498a557a26e86f692, type: 2}
+    - {fileID: 2100000, guid: 914271d59ff026e4f8fc9a6e484b6c15, type: 2}
+    - {fileID: 2100000, guid: a76a0a1d2599dfe4e8a8eb35cbfca271, type: 2}
+    - {fileID: 2100000, guid: 16c9654cb81a4474e9ab408d8255b90a, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword13
+    purchasedKey: Sword13_Purchased
+    colorKey: Sword13_Color
+    prefab: {fileID: 1347907300047430989, guid: 4c6c0d9d3bc77b746a4e758f5d27ccd5, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 97aa79b7a4e5e614baee4cd7894458b0, type: 2}
+    - {fileID: 2100000, guid: 7a0b40e7498a934419360ad8a890fc3d, type: 2}
+    - {fileID: 2100000, guid: b05625817e664d545a36bb169d405065, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0
+  - id: 0
+    weaponName: Sword14
+    purchasedKey: Sword14_Purchased
+    colorKey: Sword14_Color
+    prefab: {fileID: 3362327895274936684, guid: 1f9516f3a1ed7004c8d11367280a92c3, type: 3}
+    colorMaterials:
+    - {fileID: 2100000, guid: 80e001b428059e64984957ba855f8066, type: 2}
+    - {fileID: 2100000, guid: 087a829321254de468b96becfbb11423, type: 2}
+    - {fileID: 2100000, guid: 2a1741a9171aecf439852b79c94fb55b, type: 2}
+    - {fileID: 2100000, guid: 245c79e92cc471e429174ceadfdbeea1, type: 2}
+    purchased: 0
+    selected: 0
+    colorIndex: 0

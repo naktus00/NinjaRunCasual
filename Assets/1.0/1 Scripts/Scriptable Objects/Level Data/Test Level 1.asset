@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01014ae72b5c084bbfd6e4576980a96, type: 3}
+  m_Name: Test Level 1
+  m_EditorClassIdentifier: 
+  conceptIndex: 0
+  totalCollactableAxeNumber: 1
+  rewardCoin: 1000
+  rewardKilledBossCoin: 250
+  rewardPlayerLevel: 5
+  levelParts:
+  - type: 0
+    sample: 1
+    enemiesLevels: 
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 1
+    sample: 0
+    enemiesLevels: 000000000000000000000000000000000000000000000000000000000000000000000000
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 0
+    sample: 1
+    enemiesLevels: 
+    hasAxe: 1
+    axeSlotIndex: 1
+  - type: 1
+    sample: 2
+    enemiesLevels: 000000000000000000000000000000000000000000000000000000000000000000000000
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 0
+    sample: 1
+    enemiesLevels: 
+    hasAxe: 0
+    axeSlotIndex: -99
+  - type: 6
+    sample: 0
+    enemiesLevels: 
+    hasAxe: 0
+    axeSlotIndex: -99

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d43e3cf5081e846a1d0dafbb5b07a9, type: 3}
+  m_Name: 0 Game Data 1.0
+  m_EditorClassIdentifier: 
+  runSpeed: 14
+  aimSpeed: 20
+  aimFocusingTime: 1
+  moveSensivity: 0.7
+  playerMinPosOnPlatform: -2.5
+  playerMaxPosOnPlatform: 2.5
+  axeDamage: 20
+  axeThrowPower: 250
+  bossMoveSpeed: 0

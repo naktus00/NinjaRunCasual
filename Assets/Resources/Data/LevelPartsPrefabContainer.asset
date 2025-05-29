@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4351919c7bfe3214999fd727428b4488, type: 3}
+  m_Name: LevelPartsPrefabContainer
+  m_EditorClassIdentifier: 
+  LevelPartEmptyPrefabs:
+  - {fileID: 1262390120083907610, guid: 226ee2bd7ff974a458a82a6d271b7365, type: 3}
+  - {fileID: 1217116084610747002, guid: 6d22581b021a7804bb116d7d722db987, type: 3}
+  LevelPartStraightPrefabs:
+  - {fileID: 7718375335560445132, guid: fadca0f32ceca8f4e880f0220b1b0ad5, type: 3}
+  - {fileID: 3212112316365006096, guid: 94c812b2490295842bf778e2cca72d16, type: 3}
+  - {fileID: 3542354018398399919, guid: 31a4a36bb7d129b448208035ab5976a5, type: 3}
+  LevelPartZigzagPrefabs:
+  - {fileID: 1466449143292910986, guid: 181178bbbd12c3d48a875c91b009df6d, type: 3}
+  - {fileID: 3208688822898724368, guid: da03c3ed168957f49b447bb088d4772d, type: 3}
+  LevelPartInLinePrefabs:
+  - {fileID: 8722961391418537910, guid: 71438e16eb323534b822873e35608248, type: 3}
+  - {fileID: 7561443372787674640, guid: 20262713e767b5b4ba61dea1c86a9c5b, type: 3}
+  - {fileID: 5596495968294319548, guid: 627e425703ebe5447be374ea6aa4f9cd, type: 3}
+  - {fileID: 2137241740491182773, guid: 3af0dd1cc12603441a2a40a50965a1c4, type: 3}
+  LevelPartHammerPrefabs:
+  - {fileID: 8663815277547451452, guid: f3c3de7f23b318447a80e5d543f5a789, type: 3}
+  - {fileID: 5448153720724388904, guid: b16bb3e4b44d62c4ea5a0fa226f645d8, type: 3}
+  - {fileID: 3075326204425332811, guid: bc495a3cb5b58d64a8ddb40d0f91513b, type: 3}
+  LevelPartJumpPrefabs:
+  - {fileID: 3733093315256646058, guid: 6ddf4c0290fb5544d9bf1f87e17388f4, type: 3}
+  - {fileID: 115507595844490699, guid: 9203fa779c5426043803e25786ee3731, type: 3}
+  - {fileID: 1945911845328949345, guid: c04cd4110e3459b4bb5ac0256bc2a0d1, type: 3}
+  LevelPartBossPrefabs: {fileID: 4953827450677188655, guid: 9bc7aec644ed9ea4da644ef5f709eebe, type: 3}
+  levelPartFakePlayer: {fileID: 719695248302820895, guid: e6dfdabf71346394e870b0da5d290e22, type: 3}

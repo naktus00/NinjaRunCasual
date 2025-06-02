@@ -1,4 +1,6 @@
 # NinjaRunCasual
+## Gameplay Video
+https://drive.google.com/file/d/1fNv57EszXQ1J7rT-5fanP6zUqM9a6QCR/view?usp=sharing
 
 ## 📜 License
 

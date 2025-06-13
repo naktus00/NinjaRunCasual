@@ -29,9 +29,7 @@ public class DataManager : MonoBehaviour
     [Space(3)]
     [SerializeField] private bool[] _purchasedWeapons;
     [SerializeField] private bool[][] _purchasedWeaponColors;
-    [SerializeField] private bool[] _purchasedSkins;
-
-    
+    [SerializeField] private bool[] _purchasedSkins;   
 #endif
 
     private void Awake()
@@ -53,7 +51,6 @@ public class DataManager : MonoBehaviour
     }
     private void Update()
     {
-
 #if UNITY_EDITOR
         if (_showUserValues)
         {
@@ -125,7 +122,6 @@ public class User
     //[Header("Player")]
     //public string nickname;
     //public int avatarIndex;
-
 
     [Header("Game")]
     public int playerLevel;

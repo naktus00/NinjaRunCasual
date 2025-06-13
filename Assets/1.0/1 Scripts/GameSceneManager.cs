@@ -62,18 +62,8 @@ public class GameSceneManager : MonoBehaviour
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
         asyncLoad.allowSceneActivation = true;
 
-        //if (pGameScene == GAMESCENES.MAIN)
-        //{
-        //    UIManagerAdditional.Instance.Open(UIManagerAdditional.IMAGES.RETURNINGMENU);
-        //}
-        //else if (pGameScene == GAMESCENES.GAME)
-        //{
-        //    UIManagerAdditional.Instance.Open(UIManagerAdditional.IMAGES.MATCHSTARTING);
-        //}
-
         yield return new WaitUntil(() => asyncLoad.isDone == true);
 
-        //UIManagerAdditional.Instance.Close();
     }
 }
 

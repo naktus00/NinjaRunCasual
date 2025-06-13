@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class SoundEffectManager : MonoBehaviour
 {
-    private static SoundEffectManager instance;
-    public static SoundEffectManager Instance { get { return instance; } }
+    private static SoundEffectManager _instance;
+    public static SoundEffectManager Instance { get { return _instance; } }
 
     [SerializeField] private AudioClip[] audioClips;
 
@@ -17,10 +17,41 @@ public class SoundEffectManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance == null)
-            instance = this;
+        #region Singleton
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+
+        DontDestroyOnLoad(this.gameObject);
+        _instance = this;
+        #endregion
     }
 
+    private void OnDestroy()
+    {
+        if (_instance == this)
+            _instance = null;
+    }
+
+    public void GetSound(int clipIndex)
+    {
+        Vector3 position = Camera.main.transform.position;
+
+        GameObject audioSourceObj = ObjectPool.Instance.InstantiatePooledObj(3, position, Quaternion.identity);
+
+        AudioSource audioSource = audioSourceObj.GetComponent<AudioSource>();
+        audioSource.Stop();
+
+        audioSource.clip = audioClips[clipIndex];
+        audioSource.time = 0f;
+        audioSource.Play();
+
+        float clipLength = audioClips[clipIndex].length;
+        Debug.Log("Clip Length is : " + clipLength.ToString());
+        ObjectPool.Instance.DestroyPooledObj(audioSourceObj, clipLength);
+    }
     public void GetSound(int clipIndex, Vector3 position)
     {
         GameObject audioSourceObj = ObjectPool.Instance.InstantiatePooledObj(3, position, Quaternion.identity);

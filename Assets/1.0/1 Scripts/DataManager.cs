@@ -119,10 +119,6 @@ public class User
         coin = 250;
     }
 
-    //[Header("Player")]
-    //public string nickname;
-    //public int avatarIndex;
-
     [Header("Game")]
     public int playerLevel;
     public int nextLevel;

@@ -33,7 +33,6 @@ public class BossWeakSpot : MonoBehaviour
         bossComps.animator.SetTrigger("Attacked");
 
         //Debug.Log("Hit the weak spot by axe");
-
     }
 
 }

@@ -175,16 +175,16 @@ public class PlayerController : MonoBehaviour
         };
 
 
-        //-------------
-        GameManager.Instance.onArrivedFightArea += () => { StartCoroutine(IEOnArrivedFightArea()); };
-        GameManager.Instance.onFightEnded += (b) => {
+        ////-------------
+        //GameManager.Instance.onArrivedFightArea += () => { StartCoroutine(IEOnArrivedFightArea()); };
+        //GameManager.Instance.onFightEnded += (b) => {
 
-            if (b == false)
-                return;
+        //    if (b == false)
+        //        return;
 
-            StartCoroutine(IEOnFightEnded());
-        };
-        //-------------
+        //    StartCoroutine(IEOnFightEnded());
+        //};
+        ////-------------
     }
     private void PlayerRunOnPlatform()
     {
@@ -525,35 +525,7 @@ public class PlayerController : MonoBehaviour
 
         aimON = true;
     }
-    private IEnumerator IEOnArrivedFightArea()
-    {
-        canPlayerRun = false;
-        canPlayerMoveLeftRight = false;
-
-        GameManager.Instance.onGameRunning -= PlayerRunOnPlatform;
-
-        //var levelData = GameManager.Instance.currentLevelData;
-
-        float t0 = 0f;
-        float duration0 = 2.25f;
-
-        Vector3 targetPos = GameManager.Instance.playerFightLocTr.position;
-        Vector3 firstPos = _playerComponents.tr.position;
-        _playerComponents.animator.SetTrigger("walk");
-
-        while (t0 < duration0)    // süre düzeltilebilir
-        {
-            _playerComponents.tr.position = Vector3.Lerp(firstPos, targetPos, t0 / duration0);
-            yield return null;
-            t0 += Time.deltaTime;
-        }
-
-        _playerComponents.tr.position = targetPos;
-        _playerComponents.animator.SetTrigger("idle2");
-
-        yield return new WaitForSeconds(1f);
-        isReadyToFight = true;
-    }
+    
     private IEnumerator IEOnFightEnded()
     {
         yield return new WaitForSeconds(0.75f);
@@ -692,6 +664,36 @@ public class PlayerController : MonoBehaviour
 
         return n;
     }
+
+    //private IEnumerator IEOnArrivedFightArea()
+    //{
+    //    canPlayerRun = false;
+    //    canPlayerMoveLeftRight = false;
+
+    //    GameManager.Instance.onGameRunning -= PlayerRunOnPlatform;
+
+    //    //var levelData = GameManager.Instance.currentLevelData;
+
+    //    float t0 = 0f;
+    //    float duration0 = 2.25f;
+
+    //    Vector3 targetPos = GameManager.Instance.playerFightLocTr.position;
+    //    Vector3 firstPos = _playerComponents.tr.position;
+    //    _playerComponents.animator.SetTrigger("walk");
+
+    //    while (t0 < duration0)    // süre düzeltilebilir
+    //    {
+    //        _playerComponents.tr.position = Vector3.Lerp(firstPos, targetPos, t0 / duration0);
+    //        yield return null;
+    //        t0 += Time.deltaTime;
+    //    }
+
+    //    _playerComponents.tr.position = targetPos;
+    //    _playerComponents.animator.SetTrigger("idle2");
+
+    //    yield return new WaitForSeconds(1f);
+    //    isReadyToFight = true;
+    //}
 }
 
 [Serializable]

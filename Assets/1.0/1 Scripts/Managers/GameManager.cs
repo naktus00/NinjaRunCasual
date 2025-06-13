@@ -62,11 +62,8 @@ public class GameManager : MonoBehaviour
     private LevelManager _levelManager;
 
     //-----
-    [HideInInspector] public EnemyFakePlayer enemyPlayer;
-    //-----
-
-    //-----
-    [SerializeField] public Transform playerFightLocTr;
+    //[HideInInspector] public EnemyFakePlayer enemyPlayer;
+    //[SerializeField] public Transform playerFightLocTr;
     //-----
 
     private void Awake()

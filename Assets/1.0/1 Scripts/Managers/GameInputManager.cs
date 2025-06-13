@@ -12,7 +12,7 @@ public class GameInputManager : MonoBehaviour
     private GameInputActions _gameInputActions;
     public GameInputActions gameInputActions { get { return _gameInputActions; } }
 
-    [SerializeField] private Vector2 _touchDelta;   // TO DO: Don't forget to delete "[SerializeField]"
+    [SerializeField] private Vector2 _touchDelta;
     public Vector2 touchDelta { get { return _touchDelta; } }
 
     #region PLAYER ACTIONS
@@ -51,8 +51,6 @@ public class GameInputManager : MonoBehaviour
         _gameInputActions = new GameInputActions();
         _currentInputActionMap = playerStandardActions;
 
-        //currentInputActionMap.Enable();
-
     }
 
     private void Start()
@@ -64,10 +62,7 @@ public class GameInputManager : MonoBehaviour
     private void OnDestroy()
     {
         if (_instance == this)
-        {
             _instance = null;
-            Debug.Log("b0001");
-        } 
     }
 
     private void ResetActions()

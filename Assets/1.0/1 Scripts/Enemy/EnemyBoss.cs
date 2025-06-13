@@ -76,9 +76,6 @@ public class EnemyBoss : MonoBehaviour
 
         StartCoroutine(AddtionalRequirement.DoSlowmotion(0.05f, DeathAnimationTime - 0.5f));
 
-        //Action action = () => { GameManager.Instance.InvokeBossFightOver(true); };
-        //StartCoroutine(AddtionalRequirement.WaitTimeAndDo(action, DeathAnimationTime));
-
         GameManager.Instance.InvokeBossFightOver(true);
     }
     private void SelectEndingDance()
@@ -100,21 +97,6 @@ public class EnemyBoss : MonoBehaviour
     }
     private IEnumerator IEHavePlayerAnyAxe()
     {
-        //PlayerController player = GameManager.Instance.player;
-
-        //if (player.collectedAxe > 0)
-        //{
-        //    UIGameSceneManager.Instance.gameplayPanel.SwitchCrosshair(true);
-        //    CameraManager.Instance.AimCam(0.5f);
-        //    yield break;
-        //}
-
-        //yield return new WaitForSeconds(0.5f);
-        //CameraManager.Instance.EndingCam(2f);
-
-        //yield return new WaitForSeconds(2.0f);
-        //StartCoroutine(IEKillPlayer());
-
         PlayerController player = GameManager.Instance.player;
 
         if (player.collectedAxe > 0)
@@ -131,9 +113,6 @@ public class EnemyBoss : MonoBehaviour
     {
         _comps.animator.SetTrigger("StartMove");
         yield return new WaitForSeconds(AnimationRoaringTime);
-
-        //_move = true;
-        //StartCoroutine(IEHavePlayerAnyAxe());
 
     }
 
@@ -173,11 +152,7 @@ public class EnemyBoss : MonoBehaviour
 
         GameManager.Instance.InvokeBossFightOver(false, PlayerController.DeathAnimationTime + 2f);
 
-        //yield return new WaitForSeconds(PlayerController.DeathAnimationTime + 2f);
-
-        //GameManager.Instance.InvokeGameEnd(true);
     }
-
     
     public void Hitted(float damage, BossWeakSpot weakSpot)
     {

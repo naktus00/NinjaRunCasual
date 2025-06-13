@@ -40,7 +40,6 @@ public class LevelManager : MonoBehaviour
             LoadPrefabs(levelPartPrefabs);
         }
     }
-
     private void LoadPrefabs(LevelPartsPrefabContainer levelPartPrefabs)
     {
         Vector3 position = Vector3.zero;
@@ -151,26 +150,26 @@ public class LevelManager : MonoBehaviour
                 boss.position = position;
                 break;
 
-            case LevelPart.LevelPartType.FakePlayer:
-                posZ = _f0 + LevelPartFakePlayer.r;
-                position = new Vector3(0f, 0f, posZ);
-                _f0 = posZ + LevelPartBoss.r;
+            //case LevelPart.LevelPartType.FakePlayer:
+            //    posZ = _f0 + LevelPartFakePlayer.r;
+            //    position = new Vector3(0f, 0f, posZ);
+            //    _f0 = posZ + LevelPartBoss.r;
 
-                GameObject obj = Instantiate(levelPartPrefabs.levelPartFakePlayer, position, Quaternion.identity, _parent);
+            //    GameObject obj = Instantiate(levelPartPrefabs.levelPartFakePlayer, position, Quaternion.identity, _parent);
 
-                LevelPartFakePlayer fakePlayerPart = obj.GetComponent<LevelPartFakePlayer>();
-                fakePlayerPart.position = position;
+            //    LevelPartFakePlayer fakePlayerPart = obj.GetComponent<LevelPartFakePlayer>();
+            //    fakePlayerPart.position = position;
 
-                CameraManager.Instance.fakePlayerWinCamLocTr = fakePlayerPart.fakePlayerWinCamLocTr;
-                CameraManager.Instance.playerWinCamLocTr = fakePlayerPart.playerWinCamLocTr;
-                CameraManager.Instance.fightCamLocTr = fakePlayerPart.fightCamLocTr;
+            //    CameraManager.Instance.fakePlayerWinCamLocTr = fakePlayerPart.fakePlayerWinCamLocTr;
+            //    CameraManager.Instance.playerWinCamLocTr = fakePlayerPart.playerWinCamLocTr;
+            //    CameraManager.Instance.fightCamLocTr = fakePlayerPart.fightCamLocTr;
 
-                GameManager.Instance.playerFightLocTr = fakePlayerPart.playerLocTr;
+            //    GameManager.Instance.playerFightLocTr = fakePlayerPart.playerLocTr;
 
-                EnemyFakePlayer enemyPlayer = obj.GetComponentInChildren<EnemyFakePlayer>();
-                GameManager.Instance.enemyPlayer = enemyPlayer;
+            //    EnemyFakePlayer enemyPlayer = obj.GetComponentInChildren<EnemyFakePlayer>();
+            //    GameManager.Instance.enemyPlayer = enemyPlayer;
 
-                break;
+            //    break;
         }
     }
     private void SetEnemies(Transform enemiesParent)

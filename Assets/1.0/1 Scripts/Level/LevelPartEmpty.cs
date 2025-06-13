@@ -34,11 +34,5 @@ public class LevelPartEmpty : LevelPart
         return r;
 
     }
-    //public LevelPartEmpty(int sample, Vector3 position)
-    //{
-    //    _type = LevelPartType.Empty;
-    //    _sample = sample;
-    //    _position = position;
 
-    //}
 }
